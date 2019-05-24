@@ -1,0 +1,26 @@
+{
+    "name": "hongyukeji/package-builder",
+    "description": "A composer package builder.",
+    "keywords": ["composer", "package", "php", "package-builder"],
+    "autoload": {
+        "psr-4": {
+            "Hongyukeji\\PackageBuilder\\": "src"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.0|^4.0",
+        "symfony/process": "^3.0|^4.0",
+        "symfony/filesystem": "^3.0|^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "bin": ["bin/package-builder"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shadow",
+            "email": "admin@hongyuvip.com"
+        }
+    ]
+}
